@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #ffb3b3, #cc0000);
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  margin: 20px;
+  padding: 15px; /* Adjust padding to make the box smaller */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #ff3636;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ff3232;
+}
+
+#showProfile {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #fe3022;
+  color: white;
+}
+
+#profileSaved {
+  color: #4caf50;
+  font-weight: bold;
+}
